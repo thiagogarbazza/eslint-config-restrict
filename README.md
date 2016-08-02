@@ -32,11 +32,11 @@ to use 4 space indents instead of 2:
 ```
 
 ### ES5
-`eslint-config-restrict` is ES6+ by default. To use ES5, extend `restrict/es5`
+`eslint-config-restrict` is ES6+ by default. To use ES5, extend `restrict/es-5`
 in your `.eslintrc.json`:
 ```json
 {
-  "extends": "restrict/es5"
+  "extends": "restrict/es-5"
 }
 ```
 
@@ -50,7 +50,7 @@ To use Angular 1.x, extend `restrict/angular-1` in your `.eslintrc.json`:
 ```
 
 ### Jasmine
-To use Jasmine, extend `jasmine/es5` in your `.eslintrc.json`:
+To use Jasmine, extend `restrict/jasmine` in your `.eslintrc.json`:
 ```json
 {
   "extends": "restrict/jasmine"
