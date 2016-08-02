@@ -1,0 +1,14 @@
+sudo: false
+language: node_js
+node_js:
+  - 6
+cache:
+  directories:
+    - node_modules
+deploy:
+  provider: npm
+  email: "thiagogarbazza@gmail.com"
+  api_key:
+    secure:
+  on:
+    tags: true
