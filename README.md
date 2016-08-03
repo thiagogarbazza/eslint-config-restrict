@@ -1,5 +1,10 @@
 # eslint-config-restrict
 
+[![Build Status](https://travis-ci.org/thiagogarbazza/eslint-config-restrict.svg?branch=master)](https://travis-ci.org/thiagogarbazza/eslint-config-restrict)
+
+
+[<img src="http://eslint.org/img/logo.svg" width="80" align="right" alt="eslint">](http://eslint.org)
+
 > An [ESLint] [shareable config] for the _restrict js_ coding style.
 
 Ensure your source code adheres to the _restrict js_ coding style by linting
