@@ -190,6 +190,6 @@ module.exports = {
     "promise/param-names": "error",
 
     // Plugin Sorting
-    "sorting/sort-object-props": ["warn", {"ignoreCase": true, "ignoreMethods": false}]
+    "sorting/sort-object-props": ["warn", {"ignoreCase": false, "ignoreMethods": false}]
   }
 }
