@@ -9,6 +9,6 @@ deploy:
   provider: npm
   email: "thiagogarbazza@gmail.com"
   api_key:
-    secure:
+    secure: $NPM_AUTH_TOKEN 
   on:
     tags: true
