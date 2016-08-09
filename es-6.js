@@ -20,7 +20,7 @@ module.exports = {
     "no-useless-constructor": "error",
     "no-useless-rename": "error",
     "no-var": "error",
-    "object-shorthand": ["error", "always"],
+    "object-shorthand": ["error", "always", {"avoidQuotes": true}],
     "prefer-arrow-callback": ["off", {"allowUnboundThis": false}],
     "prefer-const": ["warn", {"ignoreReadBeforeAssign": false}],
     "prefer-reflect": "warn",
