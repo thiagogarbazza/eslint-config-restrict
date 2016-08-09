@@ -24,7 +24,7 @@ module.exports = {
     "curly": ["error", "multi-line"],
     "default-case": "warn",
     "dot-location": ["error", "property"],
-    "dot-notation": ["error", {"allowKeywords": false}],
+    "dot-notation": ["error", {"allowKeywords": true}],
     "eqeqeq": ["error", "smart"],
     "no-alert": "error",
     "no-caller": "error",
