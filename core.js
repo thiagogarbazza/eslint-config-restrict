@@ -71,9 +71,6 @@ module.exports = {
     "wrap-iife": ["error", "inside"],
     "yoda": ["error", "never", {"exceptRange": true}],
 
-    // Strict Mode
-    "strict": ["warn", "function"],
-
     // Variables
     "no-catch-shadow": "error",
     "no-label-var": "error",

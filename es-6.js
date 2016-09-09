@@ -7,6 +7,9 @@ module.exports = {
     "restrict/core"
   ],
   "rules": {
+   // Strict Mode
+    "strict": ["warn", "global"],
+
     "no-magic-numbers": ["warn", {"ignore": [0, 1], "enforceConst": true, "detectObjects": true}],
     "arrow-body-style": ["warn", "as-needed"],
     "arrow-parens": ["error", "as-needed"],
