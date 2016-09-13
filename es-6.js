@@ -6,6 +6,9 @@ module.exports = {
   "extends": [
     "restrict/core"
   ],
+  "globals": {
+    "Promise": false
+  },
   "rules": {
    // Strict Mode
     "strict": ["warn", "global"],
