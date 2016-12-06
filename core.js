@@ -155,7 +155,7 @@ module.exports = {
     "no-underscore-dangle": "warn",
     "no-unneeded-ternary": ["error", {"defaultAssignment": false}],
     "no-whitespace-before-property": "warn",
-    "object-curly-newline": ["warn", {"multiline": true, "minProperties": 1}],
+    "object-curly-newline": ["warn", {"ObjectExpression": {"multiline": true, "minProperties": 2}, "ObjectPattern": { "multiline": false}}],
     "object-curly-spacing": ["warn", "never", {"objectsInObjects": false,"arraysInObjects": false}],
     "object-property-newline": ["warn", {"allowMultiplePropertiesPerLine": true}], // todo avaliar este caso.
     "one-var": ["warn", {"uninitialized": "always", "initialized": "never" }],
