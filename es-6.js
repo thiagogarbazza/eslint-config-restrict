@@ -30,6 +30,7 @@ module.exports = {
     "object-shorthand": ["error", "always", {"avoidQuotes": true}],
     "prefer-arrow-callback": ["off", {"allowUnboundThis": false}],
     "prefer-const": ["warn", {"ignoreReadBeforeAssign": false}],
+    "prefer-numeric-literals": "error",
     "prefer-reflect": "warn",
     "prefer-rest-params": "warn",
     "prefer-spread": "warn",
