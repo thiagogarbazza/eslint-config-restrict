@@ -1,2 +1,5 @@
 .editorconfig
 .gitignore
+.npmignore
+.travis.yml
+README.md
