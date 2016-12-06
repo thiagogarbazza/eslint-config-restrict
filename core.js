@@ -154,6 +154,7 @@ module.exports = {
     "quotes": ["warn", "single", {"avoidEscape": true}],
     "semi": "error",
     "semi-spacing": "warn",
+    "sort-keys": ["warn", "asc", {"caseSensitive": true, "natural": false}],
     "sort-vars": ["warn", {"ignoreCase": true }],
     "space-before-blocks": "warn",
     "space-before-function-paren": ["warn", {"anonymous": "never", "named": "never"}],
