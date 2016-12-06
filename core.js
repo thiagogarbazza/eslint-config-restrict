@@ -14,6 +14,7 @@ module.exports = {
     // Possible Errors
     "no-extra-parens": "error",
     "valid-jsdoc": "warn",
+    "no-template-curly-in-string": "error",
     "no-prototype-builtins": "error",
 
     // Best Practices
@@ -37,6 +38,7 @@ module.exports = {
     "no-extra-bind": "error",
     "no-extra-label": "error",
     "no-floating-decimal": "error",
+    "no-global-assign": "error",
     "no-implicit-coercion": "error",
     "no-implicit-globals": "error",
     "no-implied-eval": "error",
@@ -60,6 +62,7 @@ module.exports = {
     "no-sequences": "error",
     "no-throw-literal": "error",
     "no-unmodified-loop-condition": "error",
+    "no-unsafe-negation": "error",
     "no-unused-expressions": "error",
     "no-useless-call": "error",
     "no-useless-concat": "error",
@@ -106,6 +109,7 @@ module.exports = {
     "computed-property-spacing": ["warn", "never"],
     "consistent-this": ["warn", "that"],
     "eol-last": "error",
+    "func-call-spacing": ["error", "never"],
     "func-style": ["error", "declaration", {"allowArrowFunctions": true }],
     "id-blacklist": ["error", "callback"],
     "id-length": ["warn", {"min": 2}],
@@ -138,7 +142,7 @@ module.exports = {
     "no-nested-ternary": "warn",
     "no-new-object": "warn",
     "no-plusplus": ["warn", {"allowForLoopAfterthoughts": true}],
-    "no-spaced-func": "warn",
+    "no-tabs": "warn",
     "no-trailing-spaces": "warn",
     "no-underscore-dangle": "warn",
     "no-unneeded-ternary": ["error", {"defaultAssignment": false}],
