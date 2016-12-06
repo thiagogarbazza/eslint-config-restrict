@@ -195,9 +195,14 @@ module.exports = {
     "jsdoc/require-returns-type": "warn",
 
     // Plugin Promise
-    "promise/always-return": "off",
-    "promise/catch-or-return": "off",
+    "promise/always-return": "error",
+    "promise/no-return-wrap": "error",
     "promise/param-names": "error",
+    "promise/catch-or-return": "error",
+    "promise/no-nesting": "warn",
+    "promise/no-promise-in-callback": "warn",
+    "promise/no-callback-in-promise": "warn",
+    "promise/avoid-new": "warn",
 
     // Plugin Sorting
     "sorting/sort-object-props": ["warn", {"ignoreCase": false, "ignoreMethods": false}]
