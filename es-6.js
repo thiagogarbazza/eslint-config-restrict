@@ -17,6 +17,7 @@ module.exports = {
     "arrow-body-style": ["warn", "as-needed"],
     "arrow-parens": ["error", "as-needed"],
     "arrow-spacing": "warn",
+    "class-methods-use-this": "error",
     "generator-star-spacing": ["warn", {"before": true, "after": false}],
     "no-confusing-arrow": ["error", {"allowParens": true}],
     "no-duplicate-imports": "error",
@@ -36,6 +37,7 @@ module.exports = {
     "require-yield": "error",
     "rest-spread-spacing": ["warn", "never"],
     "sort-imports": ["warn", {"ignoreCase": true, "ignoreMemberSort": false}],
+    "symbol-description": "error",
     "template-curly-spacing": "warn",
     "yield-star-spacing": ["warn", "before"]
   }
