@@ -11,7 +11,6 @@ module.exports = {
 
     // Plugin angular
     "angular/component-limit": "error",
-    "angular/controller-as-route": "error",
     "angular/di": ["error", "$inject"],
     "angular/di-order": ["warn", true, "case_insensitive"],
     "angular/di-unused": "error",
