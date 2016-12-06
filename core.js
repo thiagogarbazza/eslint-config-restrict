@@ -72,6 +72,7 @@ module.exports = {
     "no-warning-comments": ["warn", {"terms": ["todo", "fixme"], "location": "anywhere"}],
     "no-with": "error",
     "radix": ["error", "as-needed"],
+    "require-await": "error",
     "wrap-iife": ["error", "inside"],
     "yoda": ["error", "never", {"exceptRange": true}],
 
@@ -104,6 +105,7 @@ module.exports = {
     "block-spacing": "warn",
     "brace-style": "warn",
     "camelcase": "warn",
+    "capitalized-comments": ["error", "always"],
     "comma-dangle": ["warn", "never"],
     "comma-spacing": ["warn", {"before": false, "after": true }],
     "comma-style": ["warn", "last"],
