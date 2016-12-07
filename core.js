@@ -47,7 +47,7 @@ module.exports = {
     "no-labels": "error",
     "no-lone-blocks": "error",
     "no-loop-func": "error",
-    "no-magic-numbers": ["warn", {"ignore": [0, 1], "enforceConst": false, "detectObjects": true}],
+    "no-magic-numbers": ["warn", {"ignore": [0, 1], "enforceConst": true, "detectObjects": true}],
     "no-multi-spaces": "warn",
     "no-multi-str": "error",
     "no-new": "error",
@@ -196,12 +196,12 @@ module.exports = {
 
     // Plugin Promise
     "promise/always-return": "error",
-    "promise/avoid-new": "warn",
+    "promise/avoid-new": "warn", //
     "promise/catch-or-return": "error",
-    "promise/no-callback-in-promise": "warn",
-    "promise/no-nesting": "warn",
-    "promise/no-promise-in-callback": "warn",
-    "promise/no-return-wrap": "error",
+    "promise/no-callback-in-promise": "warn", //
+    "promise/no-nesting": "warn", //
+    "promise/no-promise-in-callback": "warn", //
+    "promise/no-return-wrap": "error", //
     "promise/param-names": "error",
 
     // Plugin Sorting
