@@ -1,19 +1,25 @@
 'use strict'
+
 module.exports = {
   "parserOptions": {
-    "ecmaVersion": 5
+    "ecmaVersion": 5,
   },
-  "plugins": [
-    "promise"
-  ],
   "extends": [
-    "restrict/core"
+    "eslint:recommended",
+    "restrict/rules/eslint/possible-errors",
+    "restrict/rules/eslint/best-practices",
+    "restrict/rules/eslint/strict-mode",
+    "restrict/rules/eslint/variables",
+    "restrict/rules/eslint/nodejs-commonjs",
+    "restrict/rules/eslint/stylistic-issues",
+    "restrict/rules/eslint/ecma-script-6",
+    "restrict/rules/plugins/filenames",
+    "restrict/rules/plugins/promise",
+    "restrict/rules/plugins/jsdoc",
   ],
   "rules": {
-    // Strict Mode
     "strict": ["warn", "function"],
 
-    // Plugin promise
     "promise/no-native": "error",
   }
-}
+};
