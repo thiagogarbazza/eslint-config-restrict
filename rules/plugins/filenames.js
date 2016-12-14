@@ -5,6 +5,6 @@ module.exports = {
   "rules": {
     "filenames/match-exported": ["error", "kebab"],
     "filenames/match-regex": ["error", "^[a-z-]+$", true],
-    "filenames/no-index": "error",
+    "filenames/no-index": "error"
   }
 };

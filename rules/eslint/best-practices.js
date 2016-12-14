@@ -59,6 +59,6 @@ module.exports = {
     "radix": ["error", "as-needed"],
     "require-await": "error",
     "wrap-iife": ["error", "inside"],
-    "yoda": ["error", "never", {"exceptRange": true}],
+    "yoda": ["error", "never", {"exceptRange": true}]
   }
 };

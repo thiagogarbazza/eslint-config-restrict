@@ -2,7 +2,7 @@
 
 module.exports = {
   "parserOptions": {
-    "ecmaVersion": 6,
+    "ecmaVersion": 6
   },
   "env": {
     "es6": true
@@ -18,6 +18,6 @@ module.exports = {
     "restrict/rules/eslint/ecma-script-6",
     "restrict/rules/plugins/filenames",
     "restrict/rules/plugins/promise",
-    "restrict/rules/plugins/jsdoc",
-  ],
+    "restrict/rules/plugins/jsdoc"
+  ]
 };

@@ -7,6 +7,6 @@ module.exports = {
     "no-prototype-builtins": "error",
     "no-template-curly-in-string": "error",
     "no-unsafe-negation": "error",
-    "valid-jsdoc": "warn",
+    "valid-jsdoc": "warn"
   }
 };

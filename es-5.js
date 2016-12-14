@@ -2,7 +2,7 @@
 
 module.exports = {
   "parserOptions": {
-    "ecmaVersion": 5,
+    "ecmaVersion": 5
   },
   "extends": [
     "eslint:recommended",
@@ -14,11 +14,11 @@ module.exports = {
     "restrict/rules/eslint/stylistic-issues",
     "restrict/rules/plugins/filenames",
     "restrict/rules/plugins/promise",
-    "restrict/rules/plugins/jsdoc",
+    "restrict/rules/plugins/jsdoc"
   ],
   "rules": {
     "strict": ["warn", "function"],
 
-    "promise/no-native": "error",
+    "promise/no-native": "error"
   }
 };
