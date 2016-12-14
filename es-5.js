@@ -12,7 +12,6 @@ module.exports = {
     "restrict/rules/eslint/variables",
     "restrict/rules/eslint/nodejs-commonjs",
     "restrict/rules/eslint/stylistic-issues",
-    "restrict/rules/eslint/ecma-script-6",
     "restrict/rules/plugins/filenames",
     "restrict/rules/plugins/promise",
     "restrict/rules/plugins/jsdoc",
