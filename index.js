@@ -1,6 +1,4 @@
 'use strict'
 module.exports = {
-  "extends": [
-    "restrict/es-6"
-  ]
+  "extends": ["restrict/es-6"]
 };

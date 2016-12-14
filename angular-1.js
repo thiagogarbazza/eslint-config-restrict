@@ -1,19 +1,14 @@
 'use strict'
 module.exports = {
-  "plugins": [
-    "angular"
-  ],
-  "extends": [
-    "angular",
-  ],
+  "extends": ["angular"],
   "rules": {
     "consistent-this": ["error", "vm"],
 
     // Plugin angular
     "angular/component-limit": "error",
     "angular/di": ["error", "$inject"],
-    "angular/di-order": ["warn", true, "case_insensitive"],
-    "angular/di-unused": "error",
+    "angular/di-order": ["warn", true, "case_sensitive"],
+    "angular/di-unused": "warn",
     "angular/directive-restrict": ["off", {"explicit": "always"}], // ativar depois de corrção https://github.com/Gillespie59/eslint-plugin-angular/issues/326
     "angular/dumb-inject": "error",
     "angular/empty-controller": "error",
@@ -28,5 +23,6 @@ module.exports = {
     "angular/no-services": ["error", {"directive": ["$http", "$resource"], "controller": ["$http"]}],
     "angular/on-destroy": "error",
     "angular/prefer-component": "warn",
+    "angular/rest-service": ["error", "$http"]
   }
 }
