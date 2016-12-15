@@ -18,6 +18,7 @@ module.exports = {
   ],
   "rules": {
     "strict": ["warn", "function"],
+    "func-names": "off",
 
     "promise/no-native": "error"
   }
