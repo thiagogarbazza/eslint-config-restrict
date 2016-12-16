@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-restrict",
-  "version": "0.0.5",
+  "version": "0.0.6-SNAPSHOT",
   "description": "An ESLint shareable config for the restrict js coding style.",
   "main": "index.js",
   "scripts": {
