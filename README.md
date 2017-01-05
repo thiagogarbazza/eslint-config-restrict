@@ -1,6 +1,6 @@
 # eslint-config-restrict
 
-[![Build Status](https://travis-ci.org/thiagogarbazza/eslint-config-restrict.svg?branch=master)](https://travis-ci.org/thiagogarbazza/eslint-config-restrict)
+[![Build Status](https://travis-ci.org/thiagogarbazza/eslint-config-restrict.svg?branch=0.0.6)](https://travis-ci.org/thiagogarbazza/eslint-config-restrict)
 
 
 [<img src="http://eslint.org/img/logo.svg" width="80" align="right" alt="eslint">](http://eslint.org)
