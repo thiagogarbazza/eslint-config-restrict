@@ -24,6 +24,7 @@ module.exports = {
     "angular/no-services": ["error", {"directive": ["$http", "$resource"], "controller": ["$http"]}],
     "angular/on-destroy": "error",
     "angular/prefer-component": "warn",
-    "angular/rest-service": ["error", "$http"]
+    "angular/rest-service": ["error", "$http"],
+    'angular/service-name': "off",
   }
 }
