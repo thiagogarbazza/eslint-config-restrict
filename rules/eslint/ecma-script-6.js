@@ -17,6 +17,7 @@ module.exports = {
     "object-shorthand": ["error", "always", {"avoidQuotes": true}],
     "prefer-arrow-callback": "warn",
     "prefer-const": "warn",
+    "prefer-destructuring": ["warn", {"array": true, "object": true}, {"enforceForRenamedProperties": true}],
     "prefer-numeric-literals": "error",
     "prefer-rest-params": "warn",
     "prefer-spread": "warn",
