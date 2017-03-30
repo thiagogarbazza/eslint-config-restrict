@@ -78,6 +78,7 @@ module.exports = {
     "space-infix-ops": "warn",
     "space-unary-ops": "warn",
     "spaced-comment": ["warn", "always", {"exceptions": ["*", "-", "+", "#"]}],
+    "template-tag-spacing": ["warn", "never"],
     "unicode-bom": ["error", "never"]
   }
 };
