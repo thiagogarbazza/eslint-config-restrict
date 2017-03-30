@@ -10,7 +10,7 @@ module.exports = {
     "angular/di": ["error", "$inject"],
     "angular/di-order": ["warn", true, "case_sensitive"],
     "angular/di-unused": "warn",
-    "angular/directive-restrict": ["off", {"explicit": "always"}], // ativar depois de corrção https://github.com/Gillespie59/eslint-plugin-angular/issues/326
+    "angular/directive-restrict": ["warn", {"explicit": "always"}],
     "angular/dumb-inject": "error",
     "angular/empty-controller": "error",
     "angular/file-name": ["error", {"typeSeparator": "dash", "nameStyle": "dash", "ignoreTypeSuffix": true}],
