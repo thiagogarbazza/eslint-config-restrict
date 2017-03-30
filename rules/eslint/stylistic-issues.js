@@ -58,6 +58,7 @@ module.exports = {
     "no-underscore-dangle": "warn",
     "no-unneeded-ternary": ["error", {"defaultAssignment": false}],
     "no-whitespace-before-property": "warn",
+    "nonblock-statement-body-position": ["error", "below"],
     "object-curly-newline": ["warn", {"ObjectExpression": {"multiline": true, "minProperties": 2}, "ObjectPattern": { "multiline": false}}],
     "object-curly-spacing": ["warn", "never", {"objectsInObjects": false, "arraysInObjects": false}],
     "object-property-newline": ["warn", {"allowMultiplePropertiesPerLine": true}], // todo avaliar este caso.
