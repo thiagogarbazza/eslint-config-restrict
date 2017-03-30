@@ -47,6 +47,7 @@ module.exports = {
     "no-inline-comments": "warn",
     "no-lonely-if": "warn",
     "no-mixed-operators": "warn",
+    "no-multi-assign": "warn",
     "no-multiple-empty-lines": ["warn", {"max": 2, "maxBOF": 1, "maxEOF": 1}],
     "no-negated-condition": "warn",
     "no-nested-ternary": "warn",

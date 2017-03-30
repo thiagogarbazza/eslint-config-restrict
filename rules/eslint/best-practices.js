@@ -56,6 +56,7 @@ module.exports = {
     "no-void": "error",
     "no-warning-comments": ["warn", {"terms": ["todo", "fixme"], "location": "anywhere"}],
     "no-with": "error",
+    "prefer-promise-reject-errors": "error",
     "radix": ["error", "as-needed"],
     "require-await": "error",
     "wrap-iife": ["error", "inside"],
