@@ -2,7 +2,9 @@
 
 module.exports = {
   "rules": {
+    "array-bracket-newline": ["warn", {"multiline": true, "minItems": 3}],
     "array-bracket-spacing": ["warn", "never"],
+    "array-element-newline": ["warn", { "multiline": true,"minItems": 3}],
     "block-spacing": "warn",
     "brace-style": "warn",
     "camelcase": "warn",
@@ -27,7 +29,6 @@ module.exports = {
     "line-comment-position": ["warn", { "position": "above", "ignorePattern": "pragma" }],
     "linebreak-style": ["warn", "unix"],
     "lines-around-comment": "warn",
-    "lines-around-directive": ["warn", { "before": "never", "after": "always" }],
     "max-depth": ["warn", 4],
     "max-len": ["warn", {"code": 150, "ignoreUrls": true}],
     "max-lines": ["warn", {"max": 300}],
@@ -38,8 +39,6 @@ module.exports = {
     "multiline-ternary": ["warn", "never"],
     "new-cap": "warn",
     "new-parens": "error",
-    "newline-after-var": ["warn", "always"],
-    "newline-before-return": "warn",
     "newline-per-chained-call": ["warn", {"ignoreChainWithDepth": 2 }],
     "no-array-constructor": "error",
     "no-bitwise": ["warn", {"int32Hint": true }],
@@ -67,10 +66,12 @@ module.exports = {
     "operator-assignment": ["warn", "always"],
     "operator-linebreak": ["warn", "before", {"overrides": { "?": "after", "+=": "none", "-=": "none"} }],
     "padded-blocks": ["warn", "never"],
+    "padding-line-between-statements": ["warn", { blankLine: "always", prev: "*", next: "return" }, { blankLine: "always", prev: ["const", "let", "var", "directive"], next: "*"}, { blankLine: "any", prev: ["const", "let", "var", "directive"], next: ["const", "let", "var", "directive"]}],
     "quote-props": ["warn", "consistent-as-needed"],
     "quotes": ["warn", "single", {"avoidEscape": true}],
     "semi-spacing": "warn",
     "semi": "error",
+    "semi-style": ["error", "last"],
     "sort-keys": ["warn", "asc", {"caseSensitive": true, "natural": true}],
     "sort-vars": ["warn", {"ignoreCase": false }],
     "space-before-blocks": "warn",
@@ -79,6 +80,7 @@ module.exports = {
     "space-infix-ops": "warn",
     "space-unary-ops": "warn",
     "spaced-comment": ["warn", "always", {"exceptions": ["*", "-", "+", "#"]}],
+    "switch-colon-spacing": "warn",
     "template-tag-spacing": ["warn", "never"],
     "unicode-bom": ["error", "never"]
   }

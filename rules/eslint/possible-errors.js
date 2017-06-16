@@ -2,6 +2,7 @@
 
 module.exports = {
   "rules": {
+    "for-direction": "error",
     "no-await-in-loop": "error",
     "no-compare-neg-zero": "error",
     "no-extra-parens": "error",
