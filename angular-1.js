@@ -6,6 +6,7 @@ module.exports = {
     "consistent-this": ["error", "vm"],
 
     // Plugin angular
+    "angular/avoid-scope-typos": 2,
     "angular/component-limit": "error",
     "angular/di": ["error", "$inject"],
     "angular/di-order": ["warn", true, "case_sensitive"],
